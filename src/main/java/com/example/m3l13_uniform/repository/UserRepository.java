@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class UserRepository {
-    private List<User> users = Arrays.asList(
+    private static List<User> users = Arrays.asList(
             new User(1, "Tony Soprano", "qwerty"),
             new User(2, "Dr. Jennifer Melfi", "12345"),
             new User(3, "Corrado \"Junior\" Soprano", "oldButGold"),
